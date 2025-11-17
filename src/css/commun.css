@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{
+    --couleur-beige: #F1E9C9
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body header{
+    height: 80px;
+    background-color: var(--couleur-beige);
+    margin: 0;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+body header nav .left img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+body header nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+body header nav .left{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+}
+body header nav .left ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+body header nav .right{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    height: 100%;
+    margin-right: 20px;
+}
+header nav .left a, header nav .right a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
