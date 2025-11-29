@@ -1,0 +1,104 @@
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    max-height: 1423px;    
+    gap: 322px;
+}
+main .carrouselle{
+    position: relative;
+    margin-top: 8%;
+    width: 100%;
+    height: 527px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../img/home/agencement-et-decoration-d-une-villa-laura-djabourian-architecture-d-interieur-img~32b157c20fc62304_14-3461-1-dea82ce-293547437.jpg");
+}
+main .carrouselle p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    vertical-align: middle;
+    font-size: 35;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    width: 68%;
+    border-radius: 50px;
+}
+main .carrouselle .back{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-image: url("../img/home/Vector.svg");
+}
+main .carrouselle .forward{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) rotate(180deg);
+    background-image: url("../img/home/Vector.svg");
+}
+main .carrouselle button{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 10px;
+    border: none;
+    height: 73px;
+    width: 42px;
+}
+main .carrouselle button:hover{
+    cursor: pointer;
+}
+
+main .pres{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 574px;
+    width: 92%;
+    background-color: #689D71;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+main .pres .left{
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+main .pres .left h1{
+    color: #EDD84A;
+    font-size: 35px;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-right: 0;
+}
+main .pres .left p {
+    text-align: start;
+    height: 168px;
+    width: 335;
+    margin: 0;
+    padding: 10px;
+    position: relative;
+    left: 10%;
+}
+main .pres .right {
+    display: block;
+    height: 100%;
+    margin-left: 30px;
+}
+main .pres .right video {
+
+    width: 790.8px;
+    height: 444.82px;
+    border-radius: 9px;
+}
